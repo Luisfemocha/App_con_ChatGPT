@@ -87,6 +87,7 @@ elif selected_category == "Longitud":
         centimetros = st.number_input("Ingresa la longitud en Centímetros:", value=0.0)
         pulgadas = centimetros / 2.54
         st.write(f"{centimetros} Centímetros equivale a {pulgadas} Pulgadas")
+
 elif selected_category == "Peso/Masa":
     opciones_peso_masa = [
         "Libras a Kilogramos",
@@ -115,6 +116,7 @@ elif selected_category == "Peso/Masa":
         gramos = st.number_input("Ingresa el peso en Gramos:", value=0.0)
         onzas = gramos / 28.3495
         st.write(f"{gramos} Gramos equivale a {onzas} Onzas")
+
 elif selected_category == "Volumen":
     opciones_volumen = [
         "Galones a Litros",
@@ -143,6 +145,7 @@ elif selected_category == "Volumen":
         cm_cubicos = st.number_input("Ingresa el volumen en Centímetros cúbicos:", value=0.0)
         pulgadas_cubicas = cm_cubicos / 16.3871
         st.write(f"{cm_cubicos} Centímetros cúbicos equivale a {pulgadas_cubicas} Pulgadas cúbicas")
+
 elif selected_category == "Tiempo":
     opciones_tiempo = [
         "Horas a Minutos",
@@ -181,7 +184,7 @@ elif selected_category == "Velocidad":
         mps = kph * 0.277778
         st.write(f"{kph} Kilómetros por hora equivale a {mps} Metros por segundo")
 
- elif selected_category == "Área":
+elif selected_category == "Área":
     opciones_area = [
         "Metros cuadrados a Pies cuadrados",
         "Pies cuadrados a Metros cuadrados",
@@ -219,7 +222,7 @@ elif selected_category == "Energía":
         kilojulios = calorias / 0.239006
         st.write(f"{calorias} Calorías equivale a {kilojulios} Kilojulios")
 
-  elif selected_category == "Presión":
+elif selected_category == "Presión":
     opciones_presion = [
         "Pascales a Atmósferas",
         "Atmósferas a Pascales",
@@ -238,7 +241,7 @@ elif selected_category == "Energía":
         pascales = atmosferas / 0.00000986923
         st.write(f"{atmosferas} Atmósferas equivale a {pascales} Pascales")
 
-   elif selected_category == "Tamaño de Datos":
+elif selected_category == "Tamaño de Datos":
     opciones_tamano_datos = [
         "Megabytes a Gigabytes",
         "Gigabytes a Terabytes",
